@@ -9,18 +9,31 @@ class AttendanceScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(title: Text('Presensi Siswa')),
-      body: ListView.builder(
-        itemCount: attendanceProvider.siswas.length,
-        itemBuilder: (ctx, index) {
-          final student = attendanceProvider.siswas[index];
-          return CheckboxListTile(
-            title: Text(student.name),
-            value: student.isPresent,
-            onChanged: (bool? value) {
-              attendanceProvider.toggleAttendance(index);
+      body: Stack(
+        children: [
+          Positioned.fill(
+            child: Opacity(
+              opacity: 0.1,
+              child: Image.asset(
+                'assets/images/logo_univ.jpeg',
+                fit: BoxFit.contain,
+              ),
+            ),
+          ),
+          ListView.builder(
+            itemCount: attendanceProvider.siswas.length,
+            itemBuilder: (ctx, index) {
+              final student = attendanceProvider.siswas[index];
+              return CheckboxListTile(
+                title: Text(student.name),
+                value: student.isPresent,
+                onChanged: (bool? value) {
+                  attendanceProvider.toggleAttendance(index);
+                },
+              );
             },
-          );
-        },
+          ),
+        ],
       ),
       floatingActionButton: attendanceProvider.siswas.isEmpty
           ? null

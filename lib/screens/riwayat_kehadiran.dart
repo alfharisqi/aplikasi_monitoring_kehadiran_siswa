@@ -9,7 +9,7 @@ class HistoryScreen extends StatelessWidget {
     final attendanceHistory = Provider.of<AttendanceProvider>(context).attendanceHistory;
 
     return Scaffold(
-      appBar: AppBar(title: Text('Riwayat Kehadiran')),
+      appBar: AppBar(title: Text('Riwayat Kehadiran Mahasiswa')),
       body: ListView.builder(
         itemCount: attendanceHistory.length,
         itemBuilder: (ctx, index) {
