@@ -2,9 +2,12 @@
 
 TAMPILAN 1
 
-![Screenshot 2024-11-18 090602](https://github.com/user-attachments/assets/2b20d211-e1ad-4bfa-8645-a1a9a8a2919f)
+![Screenshot 2024-11-18 092924](https://github.com/user-attachments/assets/25fadd70-620e-42c2-9d70-2c112b9cd933)
+
 
 TAMPILAN 2
 
-![Uploading Screenshot 2024-11-18 090607.png…]()
+![Screenshot 2024-11-18 093001](https://github.com/user-attachments/assets/59c83d71-2ce4-42e3-a1de-b9084d08f8f8)
+
+
 
