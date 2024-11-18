@@ -1,16 +1,10 @@
 # aplikasi_monitoring_kehadiran_siswa
 
-A new Flutter project.
+TAMPILAN 1
 
-## Getting Started
+![Screenshot 2024-11-18 090602](https://github.com/user-attachments/assets/2b20d211-e1ad-4bfa-8645-a1a9a8a2919f)
 
-This project is a starting point for a Flutter application.
+TAMPILAN 2
 
-A few resources to get you started if this is your first Flutter project:
+![Uploading Screenshot 2024-11-18 090607.png…]()
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
