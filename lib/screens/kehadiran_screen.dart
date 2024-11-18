@@ -8,7 +8,7 @@ class AttendanceScreen extends StatelessWidget {
     final attendanceProvider = Provider.of<AttendanceProvider>(context);
 
     return Scaffold(
-      appBar: AppBar(title: Text('Presensi Siswa')),
+      appBar: AppBar(title: Text('Presensi Mahasiswa')),
       body: Stack(
         children: [
           Positioned.fill(
