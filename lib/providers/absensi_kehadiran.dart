@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/siswa.dart';
 
-class AttendanceProvider with ChangeNotifier {
+class AbsensiKehadiran with ChangeNotifier {
   List<Siswa> _siswas = [
     Siswa(name: 'Ali'),
     Siswa(name: 'Budi'),

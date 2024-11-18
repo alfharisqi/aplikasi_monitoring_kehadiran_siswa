@@ -3,10 +3,10 @@ import 'package:provider/provider.dart';
 import '../providers/absensi_kehadiran.dart';
 import 'package:intl/intl.dart';
 
-class HistoryScreen extends StatelessWidget {
+class RiwayatKehadiran extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final attendanceHistory = Provider.of<AttendanceProvider>(context).attendanceHistory;
+    final attendanceHistory = Provider.of<AbsensiKehadiran>(context).attendanceHistory;
 
     return Scaffold(
       appBar: AppBar(title: Text('Riwayat Kehadiran Mahasiswa')),

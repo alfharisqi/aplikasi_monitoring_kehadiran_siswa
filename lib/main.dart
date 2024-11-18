@@ -7,7 +7,7 @@ import 'screens/riwayat_kehadiran.dart';
 void main() {
   runApp(
     ChangeNotifierProvider(
-      create: (context) => AttendanceProvider(),
+      create: (context) => AbsensiKehadiran(),
       child: MyApp(),
     ),
   );
@@ -31,8 +31,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
   static List<Widget> _pages = <Widget>[
-    AttendanceScreen(),
-    HistoryScreen(),
+    KehadiranScreen(),
+    RiwayatKehadiran(),
   ];
 
   void _onItemTapped(int index) {
